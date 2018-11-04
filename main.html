@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="daily.css">
+        <script type="text/javascript" src="idb.js"></script>
+        <script src="jquery.js"></script>
+        <script type="text/javascript" src="daily.js"></script>
+        <script>
+            $(function(){
+                $("#includedContent").load("daily.html", function() {
+                    p();
+                });
+            });
+        </script>
+        <title>daily</title>
+    </head>
+
+    <body>
+        <div id="includedContent"></div>
+    </body>
+</html>
